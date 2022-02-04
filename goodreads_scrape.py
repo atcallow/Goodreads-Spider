@@ -1,7 +1,6 @@
 import scrapy
 from scrapy.spiders import CrawlSpider, Rule
 from scrapy.linkextractors import LinkExtractor
-from scrapy.exporters import XmlItemExporter
 
 class BookstoscrapeItem(scrapy.Item):
     title = scrapy.Field()
